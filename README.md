@@ -22,7 +22,7 @@ To enable the public access, the web application was deployed on Hugging Face Sp
 
 ### The web application layout:**
 
-![Layout](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/web%20app%20layout.png)
+![Layout](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/web%20app%20layout.jpg)
 
 You can make selection for your native language and the language model to be used. 
 - Your native language Japanese or Madarin. (For this project, only two foreign language backgrounds are considered.)
