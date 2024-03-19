@@ -20,7 +20,8 @@ To run the application locally, navigate to the 'Model Deployment' folder and ex
 
 To enable the public access, the web application was deployed on Hugging Face Space. Find web app [**here**](https://huggingface.co/spaces/amyyang/webapp_englishtool). You can also find the [fine-tuned models](https://huggingface.co/amyyang) on Hugging Face.
 
-**The web application layout:**
+### The web application layout:**
+
 ![Layout](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/web%20app%20layout.png)
 
 You can make selection for your native language and the language model to be used. 
@@ -31,7 +32,7 @@ Once the options above are selected, you can enter the sentence and click 'Gener
 ![Sentence](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/correct%20sentence.png)
 
 ## ℹ️ Data Source
-The dataset used in this project is from [NAIST Lang-8 Learner Corpora](https://sites.google.com/site/naistlang8corpora/home?authuser=0). The python file `extract_err-cor-pair_new.py` in the repository is used for data extraction into csv files. It is a modified version based on [this](https://github.com/tomo-wb/Lang8-NAIST-extractor/blob/master/scripts/extract_err-cor-pair.py) original file. 
+The dataset used in this project is from [NAIST Lang-8 Learner Corpora](https://sites.google.com/site/naistlang8corpora/home?authuser=0). The python file `extract_err-cor-pair_new.py` in the repository is used for data extraction into csv files. It is a modified version based of [this](https://github.com/tomo-wb/Lang8-NAIST-extractor/blob/master/scripts/extract_err-cor-pair.py) original file. 
 
 
 ## 📚 References
