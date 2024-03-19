@@ -1,7 +1,7 @@
-# ANLP AT2 Web App - Make Friends with English
+# LLM Web Application - Make Friends with English
 
 ## Project Description
-This project is aimed at developing a web application that takes sentences input by users and generate corrected sentences using fine-tuned language models including GPT-2 and BART. Part-of-speech tagging and dependency tree are created to provide visualisations on the output to further aid the user's learning.
+This project is to develop a web application tailored to English learners from Japanese or Mandarin-speaking backgrounds. The app is able to identify errors in sentences written by learners and suggest accurate corrections, ultimately enhancing their learning experience and improving their language proficiency. The **Methods & Techniques** section below illustrates the implementation details for an end-to-end NLP pipeline. 
 
 ## 🤝 Team Members
 Our team is named A Very Beta ChatGPT 4.5 and made up of the following members:
@@ -20,7 +20,7 @@ To run the application locally, navigate to the 'Model Deployment' folder and ex
 
 To enable the public access, the web application was deployed on Hugging Face Space. Find web app [**here**](https://huggingface.co/spaces/amyyang/webapp_englishtool). You can also find the [fine-tuned models](https://huggingface.co/amyyang) on Hugging Face.
 
-### The web application layout:**
+### The web application layout
 
 ![Layout](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/web%20app%20layout.jpg)
 
@@ -28,11 +28,12 @@ You can make selection for your native language and the language model to be use
 - Your native language Japanese or Madarin. (For this project, only two foreign language backgrounds are considered.)
 - Language model to use BART or GPT-2. 
 
-Once the options above are selected, you can enter the sentence and click 'Generate' button to get the recommended/corrected sentence as well as the POS tagging and Dependency Tree to visualise the relationships between words in a sentence.
+Once the options above are selected, you can enter the sentence and click 'Generate' button to get the recommended/corrected sentence as well as the POS tagging and Dependency Tree to visualise the relationships between words in a sentence. &nbsp;  &nbsp;  
+
 ![Sentence](https://github.com/amy-panda/LLM_Web_App/blob/main/Images/correct%20sentence.png)
 
 ## ℹ️ Data Source
-The dataset used in this project is from [NAIST Lang-8 Learner Corpora](https://sites.google.com/site/naistlang8corpora/home?authuser=0). The python file `extract_err-cor-pair_new.py` in the repository is used for data extraction into csv files. It is a modified version based of [this](https://github.com/tomo-wb/Lang8-NAIST-extractor/blob/master/scripts/extract_err-cor-pair.py) original file. 
+The dataset used in this project is from [NAIST Lang-8 Learner Corpora](https://sites.google.com/site/naistlang8corpora/home?authuser=0). The python file `extract_err-cor-pair_new.py` in the repository is used for data extraction into csv files. It is a modified version of [this](https://github.com/tomo-wb/Lang8-NAIST-extractor/blob/master/scripts/extract_err-cor-pair.py) original file. 
 
 
 ## 📚 References
